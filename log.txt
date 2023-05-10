@@ -1,4 +1,4 @@
-	Device with IP address of 100.100.100.1 added to network. 
+Adding devices from ips.txt...	Device with IP address of 100.100.100.1 added to network. 
 	Device with IP address of 100.100.100.2 added to network. 
 	Device with IP address of 100.100.100.3 added to network. 
 	Device with IP address of 100.100.100.4 added to network. 
@@ -9,3 +9,91 @@
 	Device with IP address of 100.100.100.8 added to network. 
 	Device with IP address of 100.100.100.9 added to network. 
 	Device with IP address of 100.100.100.10 added to network. 
+Connecting devices from connections.txt...
+	Added link with weight 5 between hosts with ips 100.100.100.1 and 100.100.100.2.
+	Added link with weight 1 between hosts with ips 100.100.100.1 and 100.100.100.3.
+	Added link with weight 3 between hosts with ips 100.100.100.2 and 100.100.100.3.
+	Added link with weight 2 between hosts with ips 100.100.100.2 and 100.100.100.4.
+	Added link with weight 8 between hosts with ips 100.100.100.2 and 100.100.100.5.
+	Added link with weight 1 between hosts with ips 100.100.100.3 and 100.100.100.5.
+	Added link with weight 4 between hosts with ips 100.100.100.3 and 100.100.100.7.
+	Added link with weight 1 between hosts with ips 100.100.100.4 and 100.100.100.6.
+	Added link with weight 4 between hosts with ips 100.100.100.4 and 100.100.100.8.
+	Added link with weight 2 between hosts with ips 100.100.100.5 and 100.100.100.7.
+	Added link with weight 4 between hosts with ips 100.100.100.6 and 100.100.100.7.
+	Added link with weight 7 between hosts with ips 100.100.100.6 and 100.100.100.8.
+	Added link with weight 3 between hosts with ips 100.100.100.7 and 100.100.100.9.
+	Added link with weight 2 between hosts with ips 100.100.100.8 and 100.100.100.10.
+	Added link with weight 1 between hosts with ips 100.100.100.9 and 100.100.100.10.
+	Added link with weight 5 between hosts with ips 100.100.100.7 and 100.100.100.10.
+1: 100.100.100.1 failed... MAIN
+1: Host with ip 100.100.100.6 sent out a packet to host with ip 100.100.100.7. It will arrive at time 5.
+1: 100.100.100.6 failed... MAIN
+2: Host with ip 100.100.100.9 sent out a packet to host with ip 100.100.100.7. It will arrive at time 5.
+3: Host with ip 100.100.100.2 sent out a packet to host with ip 100.100.100.3. It will arrive at time 6.
+3: 100.100.100.9 failed... MAIN
+5: Host with ip 100.100.100.6 sent out a packet to host with ip 100.100.100.7. It will arrive at time 9.
+6: Host with ip 100.100.100.6 sent out a packet to host with ip 100.100.100.7. It will arrive at time 10.
+9: Host with ip 100.100.100.10 sent out a packet to host with ip 100.100.100.7. It will arrive at time 14.
+13: Host with ip 100.100.100.1 sent out a packet to host with ip 100.100.100.2. It will arrive at time 18.
+15: Host with ip 100.100.100.9 sent out a packet to host with ip 100.100.100.7. It will arrive at time 18.
+19: Host with ip 100.100.100.10 sent out a packet to host with ip 100.100.100.7. It will arrive at time 24.
+22: Host with ip 100.100.100.4 sent out a packet to host with ip 100.100.100.6. It will arrive at time 23.
+23: Host with ip 100.100.100.7 sent out a packet to host with ip 100.100.100.5. It will arrive at time 25.
+24: Host with ip 100.100.100.2 sent out a packet to host with ip 100.100.100.4. It will arrive at time 26.
+25: Host with ip 100.100.100.6 sent out a packet to host with ip 100.100.100.4. It will arrive at time 26.
+29: Host with ip 100.100.100.1 sent out a packet to host with ip 100.100.100.2. It will arrive at time 34.
+29: 100.100.100.4 failed... MAIN
+29: Host with ip 100.100.100.10 sent out a packet to host with ip 100.100.100.8. It will arrive at time 31.
+30: Host with ip 100.100.100.6 sent out a packet to host with ip 100.100.100.7. It will arrive at time 34.
+31: 100.100.100.7 failed... MAIN
+32: 100.100.100.2 failed... MAIN
+37: Host with ip 100.100.100.7 sent out a packet to host with ip 100.100.100.3. It will arrive at time 41.
+39: Host with ip 100.100.100.5 sent out a packet to host with ip 100.100.100.2. It will arrive at time 47.
+39: Host with ip 100.100.100.7 sent out a packet to host with ip 100.100.100.3. It will arrive at time 43.
+42: Host with ip 100.100.100.2 sent out a packet to host with ip 100.100.100.1. It will arrive at time 47.
+43: Host with ip 100.100.100.7 sent out a packet to host with ip 100.100.100.6. It will arrive at time 47.
+46: Host with ip 100.100.100.1 sent out a packet to host with ip 100.100.100.2. It will arrive at time 51.
+50: Host with ip 100.100.100.8 sent out a packet to host with ip 100.100.100.6. It will arrive at time 57.
+52: Host with ip 100.100.100.9 sent out a packet to host with ip 100.100.100.7. It will arrive at time 55.
+52: Host with ip 100.100.100.10 sent out a packet to host with ip 100.100.100.7. It will arrive at time 57.
+55: 100.100.100.4 failed... MAIN
+55: Host with ip 100.100.100.6 sent out a packet to host with ip 100.100.100.4. It will arrive at time 56.
+56: 100.100.100.6 failed... MAIN
+56: Host with ip 100.100.100.9 sent out a packet to host with ip 100.100.100.7. It will arrive at time 59.
+57: Host with ip 100.100.100.3 sent out a packet to host with ip 100.100.100.1. It will arrive at time 58.
+57: Host with ip 100.100.100.6 sent out a packet to host with ip 100.100.100.7. It will arrive at time 61.
+60: Host with ip 100.100.100.9 sent out a packet to host with ip 100.100.100.7. It will arrive at time 63.
+61: Host with ip 100.100.100.1 sent out a packet to host with ip 100.100.100.2. It will arrive at time 66.
+61: 100.100.100.3 failed... MAIN
+63: Host with ip 100.100.100.6 sent out a packet to host with ip 100.100.100.4. It will arrive at time 64.
+64: Host with ip 100.100.100.2 sent out a packet to host with ip 100.100.100.1. It will arrive at time 69.
+64: Host with ip 100.100.100.4 sent out a packet to host with ip 100.100.100.2. It will arrive at time 66.
+65: 100.100.100.6 failed... MAIN
+67: Host with ip 100.100.100.5 sent out a packet to host with ip 100.100.100.3. It will arrive at time 68.
+67: Host with ip 100.100.100.8 sent out a packet to host with ip 100.100.100.6. It will arrive at time 74.
+68: Host with ip 100.100.100.1 sent out a packet to host with ip 100.100.100.2. It will arrive at time 73.
+68: Host with ip 100.100.100.9 sent out a packet to host with ip 100.100.100.7. It will arrive at time 71.
+69: 100.100.100.8 failed... MAIN
+70: Host with ip 100.100.100.6 sent out a packet to host with ip 100.100.100.4. It will arrive at time 71.
+73: Host with ip 100.100.100.4 sent out a packet to host with ip 100.100.100.2. It will arrive at time 75.
+74: 100.100.100.8 failed... MAIN
+75: Host with ip 100.100.100.1 sent out a packet to host with ip 100.100.100.2. It will arrive at time 80.
+75: Host with ip 100.100.100.6 sent out a packet to host with ip 100.100.100.7. It will arrive at time 79.
+75: 100.100.100.6 failed... MAIN
+76: Host with ip 100.100.100.5 sent out a packet to host with ip 100.100.100.2. It will arrive at time 84.
+87: Host with ip 100.100.100.1 sent out a packet to host with ip 100.100.100.2. It will arrive at time 92.
+87: Host with ip 100.100.100.4 sent out a packet to host with ip 100.100.100.2. It will arrive at time 89.
+87: Host with ip 100.100.100.7 sent out a packet to host with ip 100.100.100.6. It will arrive at time 91.
+88: Host with ip 100.100.100.1 sent out a packet to host with ip 100.100.100.2. It will arrive at time 93.
+89: Host with ip 100.100.100.2 sent out a packet to host with ip 100.100.100.1. It will arrive at time 94.
+89: 100.100.100.10 failed... MAIN
+90: Host with ip 100.100.100.2 sent out a packet to host with ip 100.100.100.3. It will arrive at time 93.
+92: 100.100.100.6 failed... MAIN
+93: Host with ip 100.100.100.3 sent out a packet to host with ip 100.100.100.2. It will arrive at time 96.
+93: 100.100.100.4 failed... MAIN
+94: Host with ip 100.100.100.6 sent out a packet to host with ip 100.100.100.4. It will arrive at time 95.
+95: Host with ip 100.100.100.8 sent out a packet to host with ip 100.100.100.6. It will arrive at time 102.
+98: Host with ip 100.100.100.7 sent out a packet to host with ip 100.100.100.3. It will arrive at time 102.
+98: Host with ip 100.100.100.9 sent out a packet to host with ip 100.100.100.7. It will arrive at time 101.
+100: Host with ip 100.100.100.3 sent out a packet to host with ip 100.100.100.1. It will arrive at time 101.
